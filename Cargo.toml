@@ -7,3 +7,10 @@ edition = "2018"
 
 [dependencies]
 tokio = { version = "1.17.0", features = ["full"] }
+
+[[bin]]
+name = "interval"
+path = "src/time/interval.rs"
+[[bin]]
+name = "interval_at"
+path = "src/time/interval_at.rs"
